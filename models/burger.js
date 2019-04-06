@@ -1,6 +1,7 @@
+// Requiring the data from our ORM
 var orm = require('../config/orm.js');
 
-//Create the burger object
+//Creating a  burger object
 var burger = {
     selectAll: function (cb) {
         orm.selectAll('burgers', function (res) {

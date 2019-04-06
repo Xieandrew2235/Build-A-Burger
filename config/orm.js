@@ -1,6 +1,8 @@
+// Dependencies
 var express = require('express');
 var router = express.Router();
 var connection = require("../config/connection.js");
+
 // Import burger.js to use its database functions.
 var burger = require('../models/burger.js');
 function printQuestionMarks(num) {
@@ -39,6 +41,7 @@ function printQuestionMarks(num) {
         cb(result);
       });
   },
+//   Insert function
     insertOne: function(table, cols, vals, cb) {
       var queryString = "INSERT INTO " + table;
   
@@ -58,7 +61,8 @@ function printQuestionMarks(num) {
         cb(result);
       });
     },
-    
+
+    // Update function 
     updateOne: function(table, objColVals, condition, cb) {
       var queryString = "UPDATE " + table;
   
