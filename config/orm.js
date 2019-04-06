@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-
+var connection = require("../config/connection.js");
 // Import burger.js to use its database functions.
 var burger = require('../models/burger.js');
 function printQuestionMarks(num) {

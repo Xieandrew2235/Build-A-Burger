@@ -1,0 +1,64 @@
+* {
+	box-sizing: border-box;
+}
+
+
+body {
+	background-color: Black;
+	font-family:  'Abel', sans-serif;
+	font-size: 1em;
+	position: relative;
+}
+
+.container {
+	text-align: center;
+}
+
+.submit-row {
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+	color: #DA291C;
+	letter-spacing: 2px;
+	margin-top: 2%;
+}
+
+h5 {
+    text-align: center;
+    font-size: large;
+    margin-top: 0%;
+}
+
+img {
+	width: 7%;
+	margin-left: 46.5%;
+	margin-top: 3%;
+	margin-left: 46.5%;
+}
+
+form {
+	padding: 20px;
+}
+
+input#name {
+	width: 25%;
+	padding: 2%;
+}
+
+button.addBurgerButton {
+	position: absolute;
+	bottom: -16%;
+	left: 45%;
+	background-color: #DA291C;
+    border: none;
+    color: white;
+    padding: 1%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 10%;
+
+}
