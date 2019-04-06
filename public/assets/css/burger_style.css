@@ -1,10 +1,11 @@
 * {
-	box-sizing: border-box;
+    box-sizing: border-box;
+    
 }
 
 
 body {
-	background-color: Black;
+	background-color: #185494;
 	font-family:  'Abel', sans-serif;
 	font-size: 1em;
 	position: relative;
@@ -20,7 +21,7 @@ body {
 
 h1 {
 	text-align: center;
-	color: #DA291C;
+	color: #EE1D23;
 	letter-spacing: 2px;
 	margin-top: 2%;
 }
@@ -51,9 +52,9 @@ button.addBurgerButton {
 	position: absolute;
 	bottom: -16%;
 	left: 45%;
-	background-color: #DA291C;
+	background-color: #EE1D23;
     border: none;
-    color: white;
+    color: #FAAF15;
     padding: 1%;
     text-align: center;
     text-decoration: none;
